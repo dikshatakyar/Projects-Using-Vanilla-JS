@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: cadetblue;
+    font-family:cursive;
+    font-size: 1.5rem;
+}
+
+:root{
+    --spacing:10px;
+    --blur:1px;
+    --basec:#ffe591;
+}
+
+body{
+    text-align: center;
+    color: aliceblue;
+}
+
+.controls{
+    margin: 40px;
+}
+
+img{
+    padding:var(--spacing);
+    filter: blur(var(--blur));
+    background: var(--basec);
+}
+
+.h1{
+    color:var(--basec);
+}
+
